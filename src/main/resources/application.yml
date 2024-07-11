@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: project
+
+  datasource:
+    name: demo_project
+    username: admin
+    password: 1234
+    generate-unique-name: false
+
+  h2:
+    console:
+      enabled: true
+      path: /h2db
